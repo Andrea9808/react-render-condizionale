@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import ConditionalCompining from "./Component/ConditionalCompining";
+import ShortRender from "./Component/ShortRender";
+import HideorShowComponent from "./Component/HideorShowComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ConditionalCompining />
+      <ShortRender />
+      <HideorShowComponent />
     </div>
   );
 }
